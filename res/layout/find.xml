@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#ffffff"
+	>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	>
+<Button
+	android:id="@+id/btnbus"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="버스편"
+	/>
+<Button
+	android:id="@+id/btntrain"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="기차편"
+	/>
+<Button
+	android:id="@+id/btncar"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="자가용편"
+	/>
+<Button
+	android:id="@+id/btntourism"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="근처 관광명소"
+	/>
+</LinearLayout>
+<FrameLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+<LinearLayout
+	android:id="@+id/bus"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#ffff00"
+	>
+	<TextView  
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:textColor="#000000" 
+		android:text="안녕하세요 남강아구찜 입니다."
+		/>
+
+</LinearLayout>
+<LinearLayout
+	android:id="@+id/train"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#ffff00"
+	>
+	<TextView  
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:textColor="#000000" 
+		android:text="안녕하세요 남강아구찜 입니다."
+		/>
+
+</LinearLayout>
+<LinearLayout
+	android:id="@+id/car"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#ffff00"
+	>
+	<TextView  
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:textColor="#000000" 
+		android:text="안녕하세요 남강아구찜 입니다."
+		/>
+
+</LinearLayout>
+<RelativeLayout
+	android:id="@+id/tourism"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:visibility="invisible"
+	android:background="#00ff00"
+	>
+<EditText
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_alignParentRight="true" 
+	android:text="두번째 페이지"
+	/>
+<Button
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_alignParentBottom="true" 
+	android:text="Button"
+	/>
+</RelativeLayout>
+</FrameLayout>
+</LinearLayout>
+
